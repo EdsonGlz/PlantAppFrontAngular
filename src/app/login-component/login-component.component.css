@@ -1,0 +1,51 @@
+.spaced{
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+h2{
+  color: antiquewhite;
+}
+
+label{
+  color: antiquewhite;
+}
+
+button{
+  margin:auto;
+  display:block;
+}
+.row{
+  text-align:center;
+  /*the same margin which is every button have, it is for small screen, and if you have many buttons.*/
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.button-right{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+input{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cntS{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("/assets/aguacate.jpg") center center;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
